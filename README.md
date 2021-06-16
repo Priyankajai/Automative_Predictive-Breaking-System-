@@ -12,3 +12,7 @@ o	by replacing missing values with mean.
 •	After splitting we built the naivebayes model using the train data.
 •	Then from the built model we have predicted the test data.
 •	After that we have compared the results with the actual results and have calculated various performance metrics by making confusion matrix.
+
+
+The output of the built naïve bayes model using train data which shows the A-priori probabilities of each class. It also depicts the conditional probabilities of each class label given the attributes. For continuous attributes it gives the mean and standard deviation for each class label.
+It also gives the confusion matrix of the prediction results from which we got various performance metrics of the model like accuracy along with its confidence interval, sensitivity, specificity etc..Given a situation our model is 75% percent accurate with a 95 CI value of (0.509,0.9134) that it takes correct decisions.
